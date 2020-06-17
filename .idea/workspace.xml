@@ -1,17 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c0229ad-9dcc-4e7f-9a17-4e1d408dad1e" name="Default Changelist" comment="" />
+    <list default="true" id="2c0229ad-9dcc-4e7f-9a17-4e1d408dad1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/ParsedCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../standalone-sample-project/src/main/java/org/deeplearning4j/LenetMnistExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../standalone-sample-project/src/main/java/org/deeplearning4j/LenetMnistExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dRnHYbvlv1bDRu4PV8TTnxir4i" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,6 +42,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\!java\deeplearning4j-examples\weather-bot\src\main\java" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -32,8 +63,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592396685646</updated>
-      <workItem from="1592396688297" duration="1000" />
+      <workItem from="1592396688297" duration="3220000" />
+      <workItem from="1592400827066" duration="1895000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="632" y="170" key="SettingsEditor" timestamp="1592400664639">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="632" y="170" key="SettingsEditor/0.0.2560.1400/-1360.527.1360.728@0.0.2560.1400" timestamp="1592400664639" />
   </component>
 </project>
