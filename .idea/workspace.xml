@@ -2,16 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c0229ad-9dcc-4e7f-9a17-4e1d408dad1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/ParsedCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../standalone-sample-project/src/main/java/org/deeplearning4j/LenetMnistExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../standalone-sample-project/src/main/java/org/deeplearning4j/LenetMnistExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-tic-tac-toe/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/main.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ability/Notify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ability/Stickers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bot/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/handler/AbstractHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/handler/DefaultHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/handler/EmojiHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/handler/NotifyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/handler/SystemHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/MessageReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/MessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/command/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/command/ParsedCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/command/Parser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bot/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/command/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/command/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/command/Parser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +52,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -52,6 +68,20 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\!java\deeplearning4j-examples\weather-bot\src\main\java" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bot.App" />
+      <module name="weather-bot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -64,17 +94,110 @@
       <option name="presentableId" value="Default" />
       <updated>1592396685646</updated>
       <workItem from="1592396688297" duration="3220000" />
-      <workItem from="1592400827066" duration="1895000" />
+      <workItem from="1592400827066" duration="3906000" />
+      <workItem from="1592416960150" duration="6142000" />
+      <workItem from="1592630258189" duration="2443000" />
+      <workItem from="1592993794378" duration="741000" />
+      <workItem from="1593143034818" duration="1176000" />
+      <workItem from="1593144228653" duration="1749000" />
     </task>
+    <task id="LOCAL-00001" summary="add Bot,App,Command,ParsedCommand,Parser classes">
+      <created>1592414760672</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592414760672</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add Bot,App,Command,ParsedCommand,Parser classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Bot,App,Command,ParsedCommand,Parser classes" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="632" y="170" key="#Project_Structure" timestamp="1592455390680">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="632" y="170" key="#Project_Structure/0.0.2560.1400/-1360.527.1360.728@0.0.2560.1400" timestamp="1592455390680" />
+    <state x="1038" y="337" key="#com.intellij.ide.util.MemberChooser" timestamp="1592415683583">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1038" y="337" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1360.527.1360.728@0.0.2560.1400" timestamp="1592415683583" />
+    <state x="722" y="213" key="CommitChangelistDialog2" timestamp="1592414758181">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="722" y="213" key="CommitChangelistDialog2/0.0.2560.1400/-1360.527.1360.728@0.0.2560.1400" timestamp="1592414758181" />
+    <state width="2505" height="386" key="GridCell.Tab.0.bottom" timestamp="1593144213275">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="386" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1360.527.1360.728@0.0.2560.1400" timestamp="1593144213275" />
+    <state width="2505" height="386" key="GridCell.Tab.0.center" timestamp="1593144213275">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="386" key="GridCell.Tab.0.center/0.0.2560.1400/-1360.527.1360.728@0.0.2560.1400" timestamp="1593144213275" />
+    <state width="2505" height="386" key="GridCell.Tab.0.left" timestamp="1593144213275">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="386" key="GridCell.Tab.0.left/0.0.2560.1400/-1360.527.1360.728@0.0.2560.1400" timestamp="1593144213275" />
+    <state width="2505" height="386" key="GridCell.Tab.0.right" timestamp="1593144213275">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="386" key="GridCell.Tab.0.right/0.0.2560.1400/-1360.527.1360.728@0.0.2560.1400" timestamp="1593144213275" />
+    <state width="2505" height="475" key="GridCell.Tab.1.bottom" timestamp="1592457217003">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="475" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1360.527.1360.728@0.0.2560.1400" timestamp="1592457217003" />
+    <state width="2505" height="475" key="GridCell.Tab.1.center" timestamp="1592457217002">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="475" key="GridCell.Tab.1.center/0.0.2560.1400/-1360.527.1360.728@0.0.2560.1400" timestamp="1592457217002" />
+    <state width="2505" height="475" key="GridCell.Tab.1.left" timestamp="1592457217002">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="475" key="GridCell.Tab.1.left/0.0.2560.1400/-1360.527.1360.728@0.0.2560.1400" timestamp="1592457217002" />
+    <state width="2505" height="475" key="GridCell.Tab.1.right" timestamp="1592457217002">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="475" key="GridCell.Tab.1.right/0.0.2560.1400/-1360.527.1360.728@0.0.2560.1400" timestamp="1592457217002" />
+    <state x="694" y="270" key="Maven.ArtifactSearchDialog" timestamp="1592454239125">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="694" y="270" key="Maven.ArtifactSearchDialog/0.0.2560.1400/-1360.527.1360.728@0.0.2560.1400" timestamp="1592454239125" />
     <state x="632" y="170" key="SettingsEditor" timestamp="1592400664639">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="632" y="170" key="SettingsEditor/0.0.2560.1400/-1360.527.1360.728@0.0.2560.1400" timestamp="1592400664639" />
+    <state x="772" y="367" key="Vcs.Push.Dialog.v2" timestamp="1592414833016">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="772" y="367" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1360.527.1360.728@0.0.2560.1400" timestamp="1592414833016" />
+    <state x="547" y="281" key="new project wizard" timestamp="1592993929453">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="547" y="281" key="new project wizard/0.0.2560.1400/-1360.527.1360.728@0.0.2560.1400" timestamp="1592993929453" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/App.java</url>
+          <line>14</line>
+          <properties class="bot.App" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/handler/AbstractHandler.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
